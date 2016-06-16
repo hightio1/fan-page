@@ -1,0 +1,22 @@
+body { background-color:beige; 
+    color:#000000;}
+
+header {background-color: #000033; color: #FFFFFF;}
+
+nav {background-color: #90C7E3; color: #FFFFFF;}
+
+h2 {color: #3399CC;}
+
+dt {color: #000033;}
+
+.redtext {color: #FF0000;}
+
+h1 { margin-bottom: 0;}
+
+#games {color: #551a8b}
+
+main {
+       background-image: url(images/Nintendo64.jpg);
+       background-repeat:no-repeat;
+       background-position: right;
+       background-size: 300px 300px;}
