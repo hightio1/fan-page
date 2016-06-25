@@ -1,11 +1,29 @@
-body { background-color:beige; 
-    color:#000000;}
+body { background-color: #90C7E3;
+    color: #666666;
+    background-image: linear-gradient(#99ff66, #00ccff);
+    background-repeat: no-repeat;
+    font-family: sans-serif;}
 
-header {background-color: #000033; color: #FFFFFF;}
+header {
+     background-color: #000033;
+     color: #FFFFFF;
+     height: 60px;
+     padding-top: 15px;
+     text-align: center;
+    background-image: url(images/snes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+font-family: monospace;}
 
-nav {background-color: #90C7E3; color: #FFFFFF;}
+nav {background-color: #90C7E3; color: #FFFFFF;
+   text-align: center;
+    padding-top: 10px;
+    font-weight: bold;}
 
-h2 {color: #3399CC;}
+h2 {color: #3399CC;
+font-family: monospace;
+text-shadow: 2px 3px 1px #CCCCCC;
+}
 
 dt {color: #000033;}
 
@@ -16,7 +34,32 @@ h1 { margin-bottom: 0;}
 #games {color: #551a8b}
 
 main {
-       background-image: url(images/Nintendo64.jpg);
        background-repeat:no-repeat;
        background-position: right;
        background-size: 300px 300px;}
+
+footer {
+    font-size: 80%;
+    font-style: italic;
+}
+
+li {
+    list-style-type: square;
+}
+
+#rounded {
+    background-color: darkgreen;
+    font-size: 220%;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 1px; 
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+#linkcolors{
+    color: chocolate;
+    font-weight: bold;    
+}
