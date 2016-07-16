@@ -1,7 +1,6 @@
 body {
-    background-color: #90C7E3;
-    color: #666666;
-    background-image: url(images/background.jpg);
+    background-color: #003333;
+    color: #669999;
     background-size: 110%;
     background-repeat: no-repeat;
     font-family: "Avant Garde", Futura, Geneva, sans-serif;
@@ -17,8 +16,8 @@ header {
     font-family: Arial;
 }
 nav {
-    background-image: linear-gradient(to right, #FFFFFF, #00FF00);
-    color: #FFFFFF;
+    color: #0D4D4D;
+    background-color: #669999;
     font-weight: bold;
     float: left;
     padding: 20px;
@@ -32,9 +31,10 @@ nav {
     font-size: 80%;
 }
 h2 {
-    color: #000000;
+    color: #003333;
     font-family: monospace;
     text-shadow: 2px 3px 1px #CCCCCC;
+    text-align: center;
 }
 dt {
     color: #000033;
@@ -46,14 +46,14 @@ h1 {
     margin-bottom: 0;
 }
 #games {
-    color: #551a8b
+    color: #669999
 }
 main {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 300px 300px;
     margin-left: 160px;
-    background-color: #CCCCFF;
+    background-color: #226666;
 }
 footer {
     font-size: 70%;
@@ -62,7 +62,6 @@ footer {
     color: #000000;
 }
 p {
-    background-color: darkgray;
     color: #FFFFFF;
     text-indent: 30px;
 }
@@ -112,9 +111,56 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: #90C7E3;
+    background-color: #003333;
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px 3px #333333;
-    background-color: #EAEAEA;
+    background-color: #003333;
+}
+@media only screen and (max-width: 64em) {
+    #rounded {
+        display: none;
+    }
+    body {
+        background-image: none;
+        background-color: #003333;
+    }
+    #wrapper {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+    footer {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    #wrapper {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+    footer {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+    }
+    h2 {
+        text-align: center;
+    }
+    main {
+        display: inline;
+        text-align: center
+    }
+    nav {
+        text-align: center;
+        margin: auto;
+    }
+    nav li {
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #000000;
+    }
 }
